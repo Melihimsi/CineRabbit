@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineRabbit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Tektur&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--! navbar start  -->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo">CineRabbit</h1>
+            </div>
+            <div class="menu-container"></div>
+            <ul class="menu-list">
+                <li class="menu-list-item active">Ana Sayfa</li>
+                <li class="menu-list-item">Filmler</li>
+                <li class="menu-list-item">Diziler</li>
+                <li class="menu-list-item">Listem</li>
+                <li class="menu-list-item">Popüler</li>
+            </ul>
+            <div class="profile-container">
+                <img class="profile-picture" src="Photos/IMG_20220915_144116.jpg" alt="">
+                <div class="prfile-text-container">
+                    <span class="profile-text">Hesabım</span>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-fill toggle-icon"></i>
+                    <i class="bi bi-sun-fill toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--! navbar end -->
+    <!--! sidebar start -->
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+    <!--! sidebar end -->
+
+    <!--! content start -->
+    
+<div class="container">
+    <!--? featured content start -->
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img class="featured-title" src="Photos/tt.png" alt="">
+            <p class="featured-desc">When Puss in Boots discovers 
+                that his passion for adventure has taken 
+                its toll and he has burned through eight 
+                of his nine lives, he launches an epic 
+                journey to restore them by finding the 
+                mythical Last Wish.</p>
+                <div class="featured-buttons">
+                    <button class="play-button"><i class="bi bi-play-circle"></i>Oynat</button>
+                    <button class="info-button"><i class="bi bi-info-circle"></i><a href="https://www.imdb.com/title/tt3915174/">Daha Fazla Bilgi</a></button>
+                </div>
+
+            </div>
+            
+        </div>
+     <!--? featured content end -->
+     
+     <!-- filter start -->
+
+ 
+     <div class="movie-list-filter">
+        <select>
+            <option>Aksiyon</option>
+            <option>Animasyon</option>
+            <option>Belgesel</option>
+            <option>Komedi</option>
+            <option>Bilim Kurgu</option>
+        </select>
+    </div>
+    <!-- filter end -->
+
+
+    <!-- movie list start -->
+
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Popüler</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/stretched-2560-1440-1299427.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">INTERSTALLER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/oppenheimer-8k-2023-2560x1440-12220.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">OPPENHEİMER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/MV5BZTUwNjUwMTQtZGE3Ny00ZTlmLWFhOWItY2RkNGYxNzY1ZDg2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">AVATAR THE WAY OF WATER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/spider-man-no-way-home-doctor-strange-2021-movies-willem-2560x1440-6975.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">SPİDER-MAN NO WAY NO HOME</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/ant-man-and-the-2560x1440-10135.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">ANT-MAN AND WASP QUANTUMANİA</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/fast-x-2023-movies-8k-5k-2560x1440-11504.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">FAST AND FURİOUS 10</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/guardians-of-the-2560x1440-11915.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">GUARDİAN OF THE GALAKSİ</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/indir.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">BATMAN THE DARK KNİGHT</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/harry-potter-gi5aixvd4d26cpij.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">HARRY POTTER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/0c41ab512c86acbd28f8fddd6d79cfca.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">SHERLOCK</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <i class="bi bi-chevron-right arrow"></i>
+        </div>
+    </div><div class="movie-list-container">
+        <h1 class="movie-list-title">Gündemdekiler</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914271.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">DEADPOOL</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914273.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">KONG SKULL ISLAND</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914274.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">JHON WİCK 4</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914276.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">UP</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914287.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">ASSASİSN'S CREED</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914290.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">AVENGERS CİVİL WAR</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914291.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">BLACK PANTHER WAKANDA FOREVER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/914296.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">VENOM THERE BE CARNAGE</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wp5549067.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">AVENGERS</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/stretched-2560-1440-1299427.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">INTERSTALLER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <i class="bi bi-chevron-right arrow"></i>
+        </div>
+    </div><div class="movie-list-container">
+        <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+        <div class="movie-list-wrapper">
+            <ul class="movie-list">
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wp6060377-2560x1440-movies-wallpapers.png" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">AVENGERS</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wp6643366-2560x1440-movies-wallpapers.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">ALIEN</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wp7923275-2560x1440-movies-wallpapers.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">JOKER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wp8855683-2560x1440-movies-wallpapers.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">STAR WARS</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/the_meg_2018_movie.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">THE MEG</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/173320-iron_man_flying-iron_man-flight-superhero-marvel_comics-2560x1440.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">IRON MAN</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/mortal-kombat-2021-movies-poster-2560x1440-4902.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">MORTAL COMBAT</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/the-flash-2023-2560x1440-11489.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">THE FLASH</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/wallpapersden.com_doctor-strange-4k_2560x1440.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">DOCTOR STRANGE</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="movie-item">
+                    <img class="movie-item-img" src="Photos/stretched-2560-1440-1299427.jpg" alt="">
+                    <div class="movie-item-info">
+                        <span class="movie-item-title">INTERSTALLER</span>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-circle-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <i class="bi bi-chevron-right arrow"></i>
+        </div>
+    </div>
+</div>
+    <!-- movie list end -->
+
+
+    <!--! content end -->
+    <script src="script.js"></script>
+</body>
+
+</html>
